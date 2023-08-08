@@ -1,0 +1,30 @@
+.busca h2{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif 'Quicksand';
+    padding-top: 130px;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.busca input{
+    width: 667px;
+    height: 40px;
+    margin-left: 30px;
+    display: inline-block;
+    border-color: #2F80ED;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.busca img{
+    display: inline-block;
+    position: relative;
+    margin-bottom: -16px;
+}
+
+.busca p{
+    margin-left: 996px;
+    margin-top: -27px;
+    position: relative;
+    color: white;
+}

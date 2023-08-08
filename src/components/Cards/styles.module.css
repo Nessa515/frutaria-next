@@ -1,0 +1,25 @@
+.card{
+    width: 313px;
+    height: 227px;
+    box-shadow: 0 0 10px 0;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+}
+
+.card img{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.card .fruta{
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.card .preco{
+    margin-left: 245px;
+    margin-top: -18px;
+}
