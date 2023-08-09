@@ -1,6 +1,6 @@
 import Busca from '@/components/Busca'
 import Cabecalho from '@/components/Cabecalho'
-import Cards from '@/components/Cards'
+import ListaCards from '@/components/ListaCards'
 import { Inter } from 'next/font/google'
 
 
@@ -11,10 +11,7 @@ export default function Home() {
     <>
       <Cabecalho />
       <Busca />
-      <Cards />
-      <Cards />
-      <Cards />
-      <Cards />
+      <ListaCards />
     </>
   )
 }

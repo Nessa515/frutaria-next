@@ -1,12 +1,12 @@
 import styles from './styles.module.css';
 
-const Cards = (props) => {
+const Cards = ({fruta, imagem, preco}) => {
 
     return(
         <div className={styles.card}>
-            <img src="imagens/melancia.png" alt="Melancia" />
-            <p className={styles.fruta}>Melancia</p>
-            <p className={styles.preco}>R$ 3,00</p>
+            <img src={imagem}alt="Melancia" />
+            <p className={styles.fruta}>{fruta}</p>
+            <p className={styles.preco}>{preco}</p>
         </div>
     )
 }
